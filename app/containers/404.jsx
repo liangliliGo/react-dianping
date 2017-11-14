@@ -14,4 +14,5 @@ class NotFound extends React.Component {
 }
 
 // 使用 require.ensure 异步加载，还不支持 ES6 的 export
-module.export = NotFound
+// module.export = NotFound
+export default NotFound
