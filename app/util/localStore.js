@@ -5,10 +5,10 @@ export default {
             value = localStorage.getItem(key)
         } catch (ex) {
             // 开发环境下提示error
-            if (__DEV__) {
-                console.error('localStorage.getItem报错, ', ex.message)
+            if(__DEV__) {
+                console.error('localStorage.getItem报错，', ex.message)
             }
-        } finally {
+        } finally{
             return value
         }
     },
